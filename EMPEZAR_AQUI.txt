@@ -1,0 +1,84 @@
+STAR LEVEL SYSTEMS — WEB PARA LA CONFIGURACIÓN DE GOOGLE
+Preparada el 21 de octubre de 2026.
+
+ESTADO
+Estas páginas están listas para revisar y subir. Este ZIP no publica ninguna
+web por sí mismo ni cambia tu programa instalado. La publicación y la
+verificación en Google siguen pendientes.
+
+CONTENIDO
+- index.html: presentación del programa y explicación de las funciones Google.
+- privacidad.html: política de privacidad.
+- condiciones.html: condiciones de uso.
+- estilos.css e icono.png: apariencia e icono de la web.
+- .nojekyll: permite servir los archivos estáticos directamente en GitHub Pages.
+
+ANTES DE PUBLICAR
+Abre index.html para revisar la web y revisa sus dos páginas informativas.
+El correo público de contacto utilizado es magistvramos@gmail.com, el mismo
+de tu configuración de Google. Confirma que podrás atenderlo.
+La información describe el programa de escritorio actual; si cambias sus
+funciones o proveedores, actualiza las páginas para que sigan siendo ciertas.
+
+1. CUENTA GRATUITA
+Entra en https://github.com/signup y crea una cuenta gratuita si no tienes.
+Verifica el correo. No hace falta contratar un plan de pago para una web
+informativa en un repositorio público de GitHub Pages.
+
+2. CREAR LA WEB
+En GitHub, crea un repositorio público llamado USUARIO.github.io, sustituyendo
+USUARIO por tu nombre exacto de usuario de GitHub, en minúsculas. Si ese
+repositorio ya existe, no lo reemplaces sin revisar su contenido.
+Sube los seis archivos web de este ZIP a la raíz del repositorio y guarda los
+cambios. Sube solo los archivos de esta web, no la carpeta del programa.
+La guía puede conservarse aparte. En Settings > Pages, elige Deploy from a
+branch, la rama main y la carpeta / (root), y pulsa Save.
+Cuando termine, GitHub mostrará la dirección real. Puede tardar unos minutos.
+
+La dirección tendrá este formato (no es una dirección publicada):
+  https://USUARIO.github.io/
+
+3. VERIFICAR EN GOOGLE SEARCH CONSOLE
+Abre https://search.google.com/search-console con la misma cuenta de Google
+que administra STAR LEVEL SYSTEMS en Google Cloud.
+Añade como propiedad de tipo Prefijo de URL la dirección HTTPS real de la web.
+Utiliza el método de archivo HTML: descarga el archivo que Google te entregue,
+súbelo sin cambiar su nombre ni su contenido a la raíz del repositorio, espera
+a que se publique y vuelve a Google para pulsar Verificar. Conserva ese archivo
+publicado para mantener la verificación.
+
+4. COMPLETAR GOOGLE CLOUD
+En STAR LEVEL SYSTEMS > Google Auth Platform > Información de la marca:
+  Dominio autorizado: USUARIO.github.io (tu subdominio real)
+  Página principal: https://USUARIO.github.io/
+  Política de privacidad: https://USUARIO.github.io/privacidad.html
+  Condiciones del servicio: https://USUARIO.github.io/condiciones.html
+Usa la dirección real que GitHub haya publicado. El dominio solo lleva el
+nombre de host, sin https:// ni rutas. No agregues github.io por sí solo.
+Guarda. Revisa los avisos que muestre Google sobre marca o verificación.
+La aceptación y el estado final los determina Google; las páginas no
+garantizan por sí mismas la aprobación. Si hay un error de dominio o marca,
+compártelo antes de modificar otros ajustes.
+
+5. SALIR DE PRUEBAS
+Cuando los requisitos estén completos, entra en Público > Publicar app y
+comprueba que el estado cambie a En producción. Luego, en el programa,
+desconecta Google Drive y vuelve a conectarlo para obtener una autorización
+nueva. Comprueba una copia manual antes de dejar la función automática.
+
+DATOS Y COPIAS
+La página pública es informativa. El programa de ventas continúa instalado en
+Windows y tus copias se guardan en tu Drive. Los archivos de esta web no
+contienen ventas reales, bases de datos, licencias, credenciales OAuth ni claves.
+
+FUENTES OFICIALES DE LOS PASOS
+GitHub Pages:
+https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+Propiedad del sitio:
+https://support.google.com/webmasters/answer/9008080
+Requisitos de Google:
+https://support.google.com/cloud/answer/15549049
+https://support.google.com/cloud/answer/13807376
+Estado de publicación:
+https://support.google.com/cloud/answer/15549945
